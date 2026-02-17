@@ -1,7 +1,13 @@
 # Codex Operating Contract (repo-local)
 
 ## Non-negotiables
+0) At the start of any task, read relevant files in:
+   - .codex/memory/
+   - .codex/helpers/
+   - .codex/inbox/
+   to reuse existing knowledge instead of rediscovering it.
 1) Keep a running task log in `.codex/inbox/YYYY-MM-DD_<task>.md`.
+   Create the inbox task file if it does not exist when starting a task.
 2) When you learn something durable, update memory:
    - Conventions/decisions → `.codex/memory/decisions.md`
    - Sharp edges/gotchas → `.codex/memory/gotchas.md`
@@ -22,6 +28,7 @@
        - the diff (`git diff main...HEAD`)
        - the task goal
      - Reviewer agent is instructed to be adversarial and can return `APPROVE` or `REQUEST_CHANGES`.
+8) If a command or workflow is used more than once, create or update a helper script in `.codex/helpers/`.
 
 ## Output format for each task
 - Plan (short)

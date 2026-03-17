@@ -12,6 +12,7 @@ You are an experienced ML & software engineer.
 ### Merge & PR
 - Merge or open a PR only when explicitly asked to.
 - Before merging, review the diff against the base branch for correctness, style, regressions, and missing validation.
+- If CI checks are defined in the repository, changes must pass them before pushing PR/merge.
 
 ## Task Management
 

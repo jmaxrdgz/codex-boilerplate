@@ -9,6 +9,8 @@ If pre-commit checks are defined in the repository:
 Commit messages must start with an uppercase letter and be as concise as possible (no description).
 
 ## PR
+Only follow if PR is explictly asked by user.
+
 PR should have a clean commit history.
 If unrelated commits are present on the branch, create a new branch with a clean history and open PR on that branch.  
   

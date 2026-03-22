@@ -64,3 +64,5 @@ Over time, Codex becomes faster and more reliable on this repo.
 # Todo
 
 - [ ] Decide on and implement a structured way for Codex to orchestrate specialized subagent roles so complex tasks can be delegated and parallelized reliably.
+- [ ] Better use of plan mode (custom plan mode ?)
+- [ ] Automatically generate a todo with discovered medium-low risk issues
